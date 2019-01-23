@@ -1,0 +1,9 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "ca77e9139af5128a4ca4f8e16896bf7b"
+build_time: [1548205972, 85378000]
+inputs:
+  "/Users/mac/Downloads/M03L03 Project Swift 4.2/Match App/ViewController.swift": [1548205972, 0]
+  "/Users/mac/Downloads/M03L03 Project Swift 4.2/Match App/AppDelegate.swift": [1539321947, 0]
+  "/Users/mac/Downloads/M03L03 Project Swift 4.2/Match App/CardModel.swift": [1548147862, 0]
+  "/Users/mac/Downloads/M03L03 Project Swift 4.2/Match App/CardCollectionViewCell.swift": [1548205972, 0]
+  "/Users/mac/Downloads/M03L03 Project Swift 4.2/Match App/Card.swift": [1548138889, 0]
