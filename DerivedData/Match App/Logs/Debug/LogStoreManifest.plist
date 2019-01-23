@@ -6,6 +6,35 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
+		<key>0D67F50E-D989-404E-8E22-EA60FC229705</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>0D67F50E-D989-404E-8E22-EA60FC229705.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Match App project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Match App</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Match App</string>
+			<key>timeStartedRecording</key>
+			<real>569898773.499722</real>
+			<key>timeStoppedRecording</key>
+			<real>569913703.58538306</real>
+			<key>title</key>
+			<string>Debug Match App</string>
+			<key>uniqueIdentifier</key>
+			<string>0D67F50E-D989-404E-8E22-EA60FC229705</string>
+		</dict>
 		<key>1AE4EC23-15C8-43FD-971D-75F5D4A0CA91</key>
 		<dict>
 			<key>className</key>
@@ -35,6 +64,35 @@
 			<key>uniqueIdentifier</key>
 			<string>1AE4EC23-15C8-43FD-971D-75F5D4A0CA91</string>
 		</dict>
+		<key>37C8F5EE-B834-4AE7-828C-BAD17212F120</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>37C8F5EE-B834-4AE7-828C-BAD17212F120.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Match App project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Match App</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Match App</string>
+			<key>timeStartedRecording</key>
+			<real>569913706.20067596</real>
+			<key>timeStoppedRecording</key>
+			<real>569913745.92051005</real>
+			<key>title</key>
+			<string>Debug Match App</string>
+			<key>uniqueIdentifier</key>
+			<string>37C8F5EE-B834-4AE7-828C-BAD17212F120</string>
+		</dict>
 		<key>3F5595FA-D8BA-467A-BDCE-1043C7A4D354</key>
 		<dict>
 			<key>className</key>
@@ -63,6 +121,64 @@
 			<string>Debug Match App</string>
 			<key>uniqueIdentifier</key>
 			<string>3F5595FA-D8BA-467A-BDCE-1043C7A4D354</string>
+		</dict>
+		<key>4880BC6C-165A-42BE-A4B4-12F19068FC28</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>4880BC6C-165A-42BE-A4B4-12F19068FC28.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Match App project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Match App</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Match App</string>
+			<key>timeStartedRecording</key>
+			<real>569918432.15433598</real>
+			<key>timeStoppedRecording</key>
+			<real>569918456.49497902</real>
+			<key>title</key>
+			<string>Debug Match App</string>
+			<key>uniqueIdentifier</key>
+			<string>4880BC6C-165A-42BE-A4B4-12F19068FC28</string>
+		</dict>
+		<key>49857FC6-7F1C-4890-81C8-AEF647A0134E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>49857FC6-7F1C-4890-81C8-AEF647A0134E.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Match App project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Match App</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Match App</string>
+			<key>timeStartedRecording</key>
+			<real>569914043.67503798</real>
+			<key>timeStoppedRecording</key>
+			<real>569914081.06623304</real>
+			<key>title</key>
+			<string>Debug Match App</string>
+			<key>uniqueIdentifier</key>
+			<string>49857FC6-7F1C-4890-81C8-AEF647A0134E</string>
 		</dict>
 		<key>4E928E01-6128-4272-9219-9EF347FDF653</key>
 		<dict>
@@ -150,6 +266,35 @@
 			<string>Debug Match App</string>
 			<key>uniqueIdentifier</key>
 			<string>5DEBEF2A-B79B-4A86-9233-256AB1812083</string>
+		</dict>
+		<key>67EC54B8-6925-494B-A250-5093A19B2924</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>67EC54B8-6925-494B-A250-5093A19B2924.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Match App project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Match App</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Match App</string>
+			<key>timeStartedRecording</key>
+			<real>569914901.98683703</real>
+			<key>timeStoppedRecording</key>
+			<real>569917665.23329103</real>
+			<key>title</key>
+			<string>Debug Match App</string>
+			<key>uniqueIdentifier</key>
+			<string>67EC54B8-6925-494B-A250-5093A19B2924</string>
 		</dict>
 		<key>75F96B5D-72FE-49C0-9181-79B882E3D952</key>
 		<dict>
@@ -267,6 +412,35 @@
 			<key>uniqueIdentifier</key>
 			<string>937FF547-CE39-45FC-9673-F9F223FFACFB</string>
 		</dict>
+		<key>B0FEDE5C-A097-4766-874F-B88F43E1B116</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B0FEDE5C-A097-4766-874F-B88F43E1B116.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Match App project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Match App</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Match App</string>
+			<key>timeStartedRecording</key>
+			<real>569914766.30102706</real>
+			<key>timeStoppedRecording</key>
+			<real>569914900.41482496</real>
+			<key>title</key>
+			<string>Debug Match App</string>
+			<key>uniqueIdentifier</key>
+			<string>B0FEDE5C-A097-4766-874F-B88F43E1B116</string>
+		</dict>
 		<key>C23D38B6-64C0-46F6-80A7-AFDD28A6C1E3</key>
 		<dict>
 			<key>className</key>
@@ -325,6 +499,64 @@
 			<key>uniqueIdentifier</key>
 			<string>C888C507-EC70-4F71-947C-67EA97D6C226</string>
 		</dict>
+		<key>CDDA77D7-32BB-482E-A17C-31C27A6F8322</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>CDDA77D7-32BB-482E-A17C-31C27A6F8322.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Match App project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Match App</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Match App</string>
+			<key>timeStartedRecording</key>
+			<real>569917988.77770996</real>
+			<key>timeStoppedRecording</key>
+			<real>569918430.29927003</real>
+			<key>title</key>
+			<string>Debug Match App</string>
+			<key>uniqueIdentifier</key>
+			<string>CDDA77D7-32BB-482E-A17C-31C27A6F8322</string>
+		</dict>
+		<key>D0D68467-38F0-4E3A-BFF6-98F3331672E3</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>D0D68467-38F0-4E3A-BFF6-98F3331672E3.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Match App project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Match App</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Match App</string>
+			<key>timeStartedRecording</key>
+			<real>569917667.51655304</real>
+			<key>timeStoppedRecording</key>
+			<real>569917792.33094394</real>
+			<key>title</key>
+			<string>Debug Match App</string>
+			<key>uniqueIdentifier</key>
+			<string>D0D68467-38F0-4E3A-BFF6-98F3331672E3</string>
+		</dict>
 		<key>D8C7CC2B-EEA0-4DC4-BFFB-1535C11E9EC7</key>
 		<dict>
 			<key>className</key>
@@ -382,6 +614,35 @@
 			<string>Debug Match App</string>
 			<key>uniqueIdentifier</key>
 			<string>DAF7C292-D3C2-4522-999E-A49E5C17B081</string>
+		</dict>
+		<key>E354FE0C-C954-45A0-B21F-61B7F5CD04C8</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>E354FE0C-C954-45A0-B21F-61B7F5CD04C8.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Match App project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Match App</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Match App</string>
+			<key>timeStartedRecording</key>
+			<real>569917794.18311501</real>
+			<key>timeStoppedRecording</key>
+			<real>569917986.89317</real>
+			<key>title</key>
+			<string>Debug Match App</string>
+			<key>uniqueIdentifier</key>
+			<string>E354FE0C-C954-45A0-B21F-61B7F5CD04C8</string>
 		</dict>
 	</dict>
 </dict>

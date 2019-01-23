@@ -15,6 +15,12 @@
 		937DD9CC21F6ED22001EA093 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937DD9CB21F6ED22001EA093 /* CardModel.swift */; };
 		937DD9CE21F6EEA1001EA093 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937DD9CD21F6EEA1001EA093 /* Card.swift */; };
 		937DD9D021F6F32D001EA093 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937DD9CF21F6F32D001EA093 /* CardCollectionViewCell.swift */; };
+		937DD9D621F83C10001EA093 /* cardflip.wav in Resources */ = {isa = PBXBuildFile; fileRef = 937DD9D221F83C0F001EA093 /* cardflip.wav */; };
+		937DD9D721F83C10001EA093 /* dingcorrect.wav in Resources */ = {isa = PBXBuildFile; fileRef = 937DD9D321F83C0F001EA093 /* dingcorrect.wav */; };
+		937DD9D821F83C10001EA093 /* shuffle.wav in Resources */ = {isa = PBXBuildFile; fileRef = 937DD9D421F83C0F001EA093 /* shuffle.wav */; };
+		937DD9D921F83C10001EA093 /* dingwrong.wav in Resources */ = {isa = PBXBuildFile; fileRef = 937DD9D521F83C10001EA093 /* dingwrong.wav */; };
+		937DD9DC21F83C73001EA093 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 937DD9DB21F83C73001EA093 /* AVFoundation.framework */; };
+		937DD9DE21F83CB4001EA093 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937DD9DD21F83CB4001EA093 /* SoundManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +34,12 @@
 		937DD9CB21F6ED22001EA093 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
 		937DD9CD21F6EEA1001EA093 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		937DD9CF21F6F32D001EA093 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		937DD9D221F83C0F001EA093 /* cardflip.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cardflip.wav; sourceTree = "<group>"; };
+		937DD9D321F83C0F001EA093 /* dingcorrect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dingcorrect.wav; sourceTree = "<group>"; };
+		937DD9D421F83C0F001EA093 /* shuffle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shuffle.wav; sourceTree = "<group>"; };
+		937DD9D521F83C10001EA093 /* dingwrong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dingwrong.wav; sourceTree = "<group>"; };
+		937DD9DB21F83C73001EA093 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		937DD9DD21F83CB4001EA093 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				937DD9DC21F83C73001EA093 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +59,7 @@
 			children = (
 				83564F651FB4E205008F7BDD /* Match App */,
 				83564F641FB4E205008F7BDD /* Products */,
+				937DD9DA21F83C73001EA093 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +74,7 @@
 		83564F651FB4E205008F7BDD /* Match App */ = {
 			isa = PBXGroup;
 			children = (
+				937DD9D121F83BF8001EA093 /* Sounds */,
 				83564F661FB4E205008F7BDD /* AppDelegate.swift */,
 				83564F681FB4E205008F7BDD /* ViewController.swift */,
 				937DD9CB21F6ED22001EA093 /* CardModel.swift */,
@@ -69,8 +84,28 @@
 				83564F6A1FB4E205008F7BDD /* Main.storyboard */,
 				83564F6D1FB4E205008F7BDD /* Assets.xcassets */,
 				83564F721FB4E205008F7BDD /* Info.plist */,
+				937DD9DD21F83CB4001EA093 /* SoundManager.swift */,
 			);
 			path = "Match App";
+			sourceTree = "<group>";
+		};
+		937DD9D121F83BF8001EA093 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				937DD9D221F83C0F001EA093 /* cardflip.wav */,
+				937DD9D321F83C0F001EA093 /* dingcorrect.wav */,
+				937DD9D521F83C10001EA093 /* dingwrong.wav */,
+				937DD9D421F83C0F001EA093 /* shuffle.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		937DD9DA21F83C73001EA093 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				937DD9DB21F83C73001EA093 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,7 +168,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				937DD9D821F83C10001EA093 /* shuffle.wav in Resources */,
+				937DD9D921F83C10001EA093 /* dingwrong.wav in Resources */,
 				83564F711FB4E205008F7BDD /* LaunchScreen.storyboard in Resources */,
+				937DD9D721F83C10001EA093 /* dingcorrect.wav in Resources */,
+				937DD9D621F83C10001EA093 /* cardflip.wav in Resources */,
 				83564F6E1FB4E205008F7BDD /* Assets.xcassets in Resources */,
 				83564F6C1FB4E205008F7BDD /* Main.storyboard in Resources */,
 			);
@@ -151,6 +190,7 @@
 				937DD9CC21F6ED22001EA093 /* CardModel.swift in Sources */,
 				937DD9D021F6F32D001EA093 /* CardCollectionViewCell.swift in Sources */,
 				937DD9CE21F6EEA1001EA093 /* Card.swift in Sources */,
+				937DD9DE21F83CB4001EA093 /* SoundManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +332,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M4X8XGTSJ2;
+				DEVELOPMENT_TEAM = 8G43M5CX79;
 				INFOPLIST_FILE = "Match App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codewithchris.Match-App";
@@ -307,7 +347,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M4X8XGTSJ2;
+				DEVELOPMENT_TEAM = 8G43M5CX79;
 				INFOPLIST_FILE = "Match App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codewithchris.Match-App";
